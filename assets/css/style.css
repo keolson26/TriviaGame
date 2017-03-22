@@ -1,0 +1,39 @@
+body {
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+    background-size: 1800px 1300px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Francois One', sans-serif;
+}
+
+.well {
+	width: 700px;
+	height: 150px;
+	text-align: center;
+	margin-left:20%;
+}
+
+.panel {
+	text-align: center;
+}
+
+.radio-inline {
+	padding: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.jumbotron {
+	font-family: 'Baloo Bhaina', cursive;
+}
+
+#timer {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+}
+
+
+

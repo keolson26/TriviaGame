@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>Homework Assignment 5 - Trivia Game</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Francois+One|Indie+Flower|Josefin+Sans" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<div class = "container">
+
+	<div class="jumbotron bg-primary text-center">
+		<h1>Trivia Game</h1>
+		<button id = "startBtn" type="button" class="btn btn-success">Click to play!</button> <button id = "submitBtn" type="button" class="btn btn-danger">Click to submit!</button>
+	</div>
+
+	<div class = "row">
+		<div class = "col-md-2"></div>
+		<div class = "col-md-8">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div><span id="timer">30 seconds left</div>
+				</div>
+			</div>
+		</div>
+		<div class = "col-md-2"></div>
+	</div>
+
+	<div class="row">
+		<div class="well well-lg">
+			<h2 id="question1"></h2>
+	  		<label class="radio-inline"><input type="radio" name="optradio1" id = "wrong"><span id = "firstC1"></span></label>
+			<label class="radio-inline"><input type="radio" name="optradio1" id = "correct1"><span id = "secondC1"></span></label>
+			<label class="radio-inline"><input type="radio" name="optradio1" id = "wrong"><span id = "thirdC1"></span></label>
+			<label class="radio-inline"><input type="radio" name="optradio1" id = "wrong"><span id = "fourthC1"></span></label>
+		</div>
+    </div>	
+
+	<div class="row">
+		<div class="well well-lg">
+			<h2 id="question2"></h2>
+	  		<label class="radio-inline"><input type="radio" name="optradio2" id = "wrong"><span id = "firstC2"></span></label>
+			<label class="radio-inline"><input type="radio" name="optradio2" id = "wrong"><span id = "secondC2"></span></label>
+			<label class="radio-inline"><input type="radio" name="optradio2" id = "wrong"><span id = "thirdC2"></span></label>
+			<label class="radio-inline"><input type="radio" name="optradio2" id = "correct2"><span id = "fourthC2"></span></label>
+		</div>
+    </div>
+
+	<div class="row">
+		<div class="well well-lg">
+			<h2 id="question3"></h2>
+	  		<label class="radio-inline"><input type="radio" name="optradio3" id = "correct3"><span id = "firstC3"></span></label>
+			<label class="radio-inline"><input type="radio" name="optradio3" id = "wrong"><span id = "secondC3"></span></label>
+			<label class="radio-inline"><input type="radio" name="optradio3" id = "wrong"><span id = "thirdC3"></span></label>
+			<label class="radio-inline"><input type="radio" name="optradio3" id = "wrong"><span id = "fourthC3"></span></label>
+		</div>
+    </div>
+    
+   <div class="row">
+		<div class="well well-lg">
+			<h2 id="question4"></h2>
+	  		<label class="radio-inline"><input type="radio" name="optradio4" id = "correct4"><span id = "firstC4"></span></label>
+			<label class="radio-inline"><input type="radio" name="optradio4" id = "wrong"><span id = "secondC4"></span></label>
+			<label class="radio-inline"><input type="radio" name="optradio4" id = "wrong"><span id = "thirdC4"></span></label>
+			<label class="radio-inline"><input type="radio" name="optradio4" id = "wrong"><span id = "fourthC4"></span></label>
+		</div>
+    </div>
+
+
+ 	<div class="row">
+		<div class="well well-lg">
+			<h2 id="question5"></h2>
+	  		<label class="radio-inline"><input type="radio" name="optradio5" id = "wrong"><span id = "firstC5"></span></label>
+			<label class="radio-inline"><input type="radio" name="optradio5" id = "wrong"><span id = "secondC5"></span></label>
+			<label class="radio-inline"><input type="radio" name="optradio5" id = "correct5"><span id = "thirdC5"></span></label>
+			<label class="radio-inline"><input type="radio" name="optradio5" id = "wrong"><span id = "fourthC5"></span></label>
+		</div>
+    </div>
+</div>
+
+<script type="text/javascript" src="assets/javascript/app.js">
+	
+</script>
+
+</body>
+</html>
